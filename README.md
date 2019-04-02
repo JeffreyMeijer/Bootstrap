@@ -1,2 +1,1 @@
-# Bootstrap
-Bootstrap website
+Eindopdracht van C3 Bootstrap
