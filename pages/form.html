@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/css.css"></link>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <meta charset="utf-8">
@@ -29,5 +30,41 @@
     </ul>
   </div>
   </nav>
+  <form class="formulier">
+    <div class="form-group">
+      <label for="Naam">Naam:</label>
+      <input type="text" class="form-control" id="name" class="forminput"/>
+      <div id="naaminfo" class="collapse">
+        <p>Hier vul je je naam in (alleen letters werken)</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="Adres">Adres:</label>
+      <input type="text" class="form-control" id="adres" class="forminput"/>
+      <div id="adresinfo" class="collapse">
+        <p>Hier vul je je adres in (letters met daarna een nummer)</p>
+      </div>
+    </div>
+    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#check" id="submit">Submit</button>
+    <div id="check" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4>Weet je het zeker?</h4>
+          </div>
+          <div class="modal-body">
+            <p>Weet je het zeker dat je deze formulier wilt sturen?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="confirm">Ja</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="decline">Nee</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p id="formsent" hidden>Formulier is verstuurd!</p>
   </body>
+  <script src="../scripts/script.js"></script>
 </html>
