@@ -1,17 +1,18 @@
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
   $("#confirm").click(function(){
+    $("#namealert").hide();
+    $("#adresalert").hide();
     var naam = $("#name").val();
     var adres = $("#adres").val();
-    console.log(naam);
-    console.log(adres);
     if(!/^\D*$/.test(naam)){
-      alert("Naam is niet correct");
+      $("#namealert").fadeIn("slow");
     }
     if(!/^[a-zA-Z$]*\s[1-9]*$/.test(adres)){
-      alert("Adres is niet correct");
+      $("#adresalert").fadeIn("slow");
+    }else{
+      $("#formsent").show();
     }
-    $("#formsent").show();
   });
   $("#name").hover(function(){
     $("#naaminfo").collapse("show");
