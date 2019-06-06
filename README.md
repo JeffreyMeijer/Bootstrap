@@ -1,3 +1,3 @@
-Eindopdracht van C3 Bootstrap
+# Eindopdracht van C3 Bootstrap
 
-TIJDELIJKE STOP!
+Eindopdracht van de C3 Bootstrap
