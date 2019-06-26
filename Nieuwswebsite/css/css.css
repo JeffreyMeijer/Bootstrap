@@ -1,0 +1,19 @@
+.carousel {
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  width:50%;
+  height:400px;
+}
+.carousel-inner > .item > img {
+  width: 100%;
+  height: 400px;
+}
+.carousel-caption > p {
+  margin-left: -150px;
+  font-size: 20px;
+}
+#wells{
+  position: absolute;
+  top: 500px;
+}

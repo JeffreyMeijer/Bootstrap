@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="../css/css.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Homepage</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#">Jeffrey & CO</a>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="home.html">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">WW2
+        <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="../../Website/pages/39-40.html">1939-1940</a></li>
+          <li><a href="../../Website/pages/41.html">1941</a></li>
+          <li><a href="../../Website/pages/42-43.html">1942-1943</a></li>
+          <li><a href="../../Website/pages/44-45.html">1944-1945</a></li>
+        </ul>
+      </li>
+      <li class="active"><a href="Nieuwswebsite/pages/nieuwswebsite.html">Nieuwswebsite</a></li>
+      <li><a href="../../Website/pages/form.html">Formulier</a></li>
+    </ul>
+  </div>
+  </nav>
+      <div id="Carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="../fotos/foto1.jpg" class="carouselfotos" alt="foto1"/>
+            <div class="carousel-caption">
+              <p>2500 KG Crystal Meth ontdekt in Rotterdam, grootste vondst in Europa ooit.</p>
+            </div>
+          </div>
+
+          <a class="left carousel-control" href="#Carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#Carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div id="wells" class="container">
+      <div class="list-group">
+        <a href="#open" data-toggle="collapse" class="list-group-item well well-sm">Nieuws</h4><span class="badge">20</span></a>
+        <div id="open" class="collapse">
+          <a href="actueel.html" class="list-group-item well well-sm">Actueel <span class="badge">5</span></a>
+          <a href="tech.html" class="list-group-item well well-sm">Tech <span class="badge">5</span></a>
+          <a href="politiek.html" class="list-group-item well well-sm">Politiek <span class="badge">5</span></a>
+          <a href="sport.html" class = "list-group-item well well-sm">Sport <span class="badge">5</spam></a><br/>
+        </div>
+        <a href="comment.php" class="list-group-item well well-sm">Comments <span class="badge">8</span></a>
+        <a href="#" class="list-group-item well well-sm">Warnings <span class="badge">3</span></a>
+      </div>
+    </div>
+  </body>
+</html>
