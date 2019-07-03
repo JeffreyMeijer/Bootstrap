@@ -9,12 +9,21 @@
   width: 100%;
   height: 400px;
 }
-.carousel-caption > p {
-  margin-left: -150px;
-  font-size: 20px;
+.carousel-caption > h2 {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+}
+.carousel-caption > h2 > span {
+  color: white;
+  font: bold 20px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7); padding: 10px;
 }
 #wells{
-  position: absolute;
+  position: relative;
   top: 500px;
 }
 .nieuws {
